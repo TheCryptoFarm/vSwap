@@ -1,6 +1,10 @@
 # vSwap
 A BSC smart contract for executing swaps between different pancakeswap and pancakeswap clone dexes in a single transaction.
 
+
+INSTALL: run yarn
+
+
 Copyright (c) 2021 vincor1986
 
 IMPORTANT: Please note that I have made vSwap available freely for information and development purposes only. Please only use if you are an experienced developer who understands the code. If you choose to deploy and use this smart contract, you do so at your own risk, and I do not accept responsibility for any losses (financial or otherwise) that you may incur as a result.
