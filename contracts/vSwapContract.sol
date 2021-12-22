@@ -1,5 +1,5 @@
 // SPDX-License-Identifier: GPL-3.0
-pragma solidity >=0.6.6;
+pragma solidity >=0.6.12;
 
 library SafeMath {
     function add(uint256 x, uint256 y) internal pure returns (uint256 z) {
@@ -14,8 +14,6 @@ library SafeMath {
         require(y == 0 || (z = x * y) / y == x, "ds-math-mul-overflow");
     }
 }
-
-pragma solidity >=0.5.0;
 
 interface IPancakePair {
     event Transfer(address indexed from, address indexed to, uint256 value);
@@ -125,7 +123,7 @@ contract vSwapContract {
         _;
     }
 
-    constructor() {
+    constructor() public {
         owner = msg.sender;
     }
 
