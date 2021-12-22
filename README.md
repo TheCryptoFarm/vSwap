@@ -2,7 +2,18 @@
 A BSC smart contract for executing swaps between different pancakeswap and pancakeswap clone dexes in a single transaction.
 
 
-INSTALL: run yarn
+INSTALL: 
+
+$ yarn
+
+Compile:  
+
+$ npx hardhat compile
+
+Deploy:
+
+$ npx hardhat deploy --network bsc_testnet
+
 
 
 Copyright (c) 2021 vincor1986, PhatJay1976
